@@ -2,7 +2,7 @@
 
 ---
 
-### [Mylaps](https://www.mylaps.com)
+### [![MyLaps](images/logo-mylaps.png)](https://www.mylaps.com)
 
 **Timing & Scoring**
 - Description: Middleware to interface with timing hardware, collect manage and export data, monitoring of hardware.  Multiple hardware protocols, versions and capabilities supported and displayed in unified interface.  Communications via local network, WAN via relay server, RS232, RS485, USB HID, text file import.  Interfaces for import/export with MySQL, MS SQL, MS Access, ODBC, TCP stream, custom file format.  Multi-user client/server handling with event streaming via Protocol Buffers.  Embedded web app for optionally producing race results.
@@ -13,7 +13,7 @@
 
 ---
 
-### [Mtec Results](https://www.mtectiming.com)
+### [![Mtec Results](images/logo-mtec.png)](https://www.mtectiming.com)
 
 **www.mtecresults.com**
 - Description: Race results and rankings, personalized race video, custom generated PDF certificates, live results.  2010-present
@@ -38,6 +38,7 @@
 - Hardware and software build of portable LED display for use as selfie background, running time clock.  Android and desktop mangement apps.  Custom built PCB to simulate reverse engineered keypad for existing clock to make it interoperable with same software.
 - Technologies: Java, Android, Protocol Buffers, Lombok
 - Infrastructure: Raspberry Pi, LED Matrix Hat, KiCad, ZeroTier, Table Saw, PVC, Spray Paint
+- Background: PCB Images [1.0](images/clockcontrol-pcb/pcb0.jpg), [1.1](images/clockcontrol-pcb/pcb1.jpg), [1.2](images/clockcontrol-pcb/pcb2.jpg)
 
 **Internal Android Apps**
 - Description: Internal Android apps for various functions - AnnouncerDisplay (tablet/desktop info display for race announcer, live results feed, gRPC integration for live updates/messaging from timing software) / ResultsReceipts (receipt printout of results from POS device, using internal API of www.mtecresults.com ) / BackupTiming (manual time capture for backup/verification uses, integration with external services with TCP and HTTP APIs) / ClockControl (control/monitoring of in house LED display and commercial LED clock with reverse engineered input) / S3PhotoSync (live sync of captured photos to S3 and metadata HTTP API)
