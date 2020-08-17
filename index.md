@@ -32,7 +32,7 @@
 - Description: On site dynamic assignment of participant number.  Allows for less waste of supplies vs. pre-assigning, faster/more flexible pickup experience for participant.  Offline first system, must be reliable for good participant experience and with limited pickup window
 - Technologies: Java(Server), Android(Client), gRPC, Protocol Buffers, Dropwizard, JDBI, Lombok
 - Infrastructure: H2, Android POS terminals
-- Background: Developed winter 2019-2020
+- Background: Developed winter 2019-2020 [Screenshot](images/app-screenshots/dynamic.png)
 
 **Selfie Clock**
 - Hardware and software build of portable LED display for use as selfie background, running time clock.  Android and desktop mangement apps.  Custom built PCB to simulate reverse engineered keypad for existing clock to make it interoperable with same software.
