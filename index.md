@@ -78,5 +78,15 @@
 - Background - GitHub Repos - [LiveRanking](https://github.com/cmagnuson/LiveRanking), [OrderStatisticTree](https://github.com/cmagnuson/OrderStatisticTree)
 
 ---
+
+### Personal
+
+**2020 Covid Spring Builds**
+- Metal Planter, Dog Door, Arch, welded trellises, side by side tandem `TODO: photos, description, consider standalone page`
+
+**Railbike**
+-`TODO: fill in`
+
+---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
