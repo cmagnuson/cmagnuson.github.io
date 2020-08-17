@@ -1,4 +1,4 @@
-title: Carl Magnuson # your name (or website title) here
+title: Carl Magnuson
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   First description
@@ -9,4 +9,4 @@ description: > # your text below (remove <br> elements if you don't need line br
 
 theme: jekyll-theme-minimal
 url: https://www.carlmagnuson.com
-google_analytics: UA-175557391-1 # your Google Analytics tracking ID here
+google_analytics: UA-175557391-1
