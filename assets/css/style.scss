@@ -1,0 +1,44 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@media print, screen and (min-width: 1400px) {
+    div.wrapper {
+        width: 1200px;
+    }
+
+    section {
+      width: 900px;
+    }
+}
+
+@media print, screen and (min-width: 1600px) {
+    div.wrapper {
+        width: 1400px;
+    }
+
+    section {
+      width: 1100px;
+    }
+}
+
+@media print, screen and (min-width: 1800px) {
+    div.wrapper {
+        width: 1600px;
+    }
+
+    section {
+      width: 1300px;
+    }
+}
+
+@media print, screen and (min-width: 2000px) {
+    div.wrapper {
+        width: 1800px;
+    }
+
+    section {
+      width: 1500px;
+    }
+}
