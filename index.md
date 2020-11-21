@@ -50,10 +50,10 @@
 - Technologies: Node, Pug
 - Infrastructure: Serverless, S3, Lambda, SNS
 
-**DataLoader/CSVDiff**
-- Description: Data transformation for common use cases, diff of CSV file based on unique id column. JSON DSL for data transformations
-- Technologies: Haskell, aeson, parsec, lucid
-- Background: GitHub repos - [DataLoader](https://github.com/cmagnuson/DataLoader), [CsvDiff](https://github.com/cmagnuson/CsvDiff)
+**Data Transformation**
+- Description: Data transformation for common use cases, diff of CSV file based on unique id column. JSON DSL for data transformations. Splitting CSV on unique column values.
+- Technologies: Haskell, aeson, parsec, lucid, Groovy
+- Background: GitHub repos - [DataLoader](https://github.com/cmagnuson/DataLoader), [CsvDiff](https://github.com/cmagnuson/CsvDiff), [TeamSplitter](https://github.com/cmagnuson/TeamSplitter)
 
 **API clients - RaceEntry/RaceRoster/RunSignUp**
 - Description: API clients to access registrations services via CLI or to embed as library
@@ -69,7 +69,7 @@
 - Description: Tooling for converting 3rd party TCP/UDP streams from custom protocol to Java API, DB or JMS handling, conversion to other 3rd party protocol
 - Technologies: Java, Mina, JMS
 - Infrastructure: Jitpack, ActiveMQ
-- Background: GitHub repos - [MyLaps TCP Server](https://github.com/cmagnuson/mylaps-tcp-server), [RM Timing UDP Server](https://github.com/cmagnuson/rm-timing-udp-server)
+- Background: GitHub repos - [MyLaps TCP Server](https://github.com/cmagnuson/mylaps-tcp-server), [RM Timing UDP Server](https://github.com/cmagnuson/rm-timing-udp-server), [rs-happy](https://github.com/cmagnuson/rs-happy), [RunScoreTCPToFile](https://github.com/cmagnuson/RunScoreTCPToFile)
 
 **Live Ranking**
 - Description:	Extending Order Statistic Tree implementation to allow for duplicate entries and keep proper count
