@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+footer {
+  bottom: 10px;
+}
+
 @media print, screen and (min-width: 1400px) {
     div.wrapper {
         width: 1200px;
