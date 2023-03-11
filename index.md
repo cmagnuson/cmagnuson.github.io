@@ -6,7 +6,7 @@
 **SupplyManager Client Project**
 - Description: B2B ecommerce system for medical purchasing
 - Technologies: Java 17, Spring Boot 2.x, Microservices
-- Infrastructure: AKS, Oracle, MS SQL, Kafka, Elastic, JDE, Concourse CI, Distributed Tracing
+- Infrastructure: AKS, Oracle, MS SQL, Redis, Kafka, Elastic, JDE, Concourse CI, Distributed Tracing
 - Background: [SupplyManager](https://mms.mckesson.com), [McKesson](https://www.mckesson.com)
 - Contributions: 
   - Migration from legacy monolith to modern microservices, refactoring and rebuilding of existing functionality, new feature work, customer migrations to updated system
