@@ -2,6 +2,23 @@
 
 ---
 
+### [![Solution Design Group](images/logo-sdg.png)](https://www.solutiondesign.com)
+**SupplyManager Client Project**
+- Description: B2B ecommerce system for medical purchasing
+- Technologies: Java 17, Spring Boot 2.x, Microservices
+- Infrastructure: AKS, Oracle, MS SQL, Kafka, Elastic, JDE, Concourse CI, Distributed Tracing
+- Background: [SupplyManager](https://mms.mckesson.com), [McKesson](https://www.mckesson.com)
+- Contributions: 
+  - Migration from legacy monolith to modern microservices, refactoring and rebuilding of existing functionality, new feature work, customer migrations to updated system
+  - CSOS (controlled substances ordering system) integration with 3rd party vendor to allow ordering and digital signing for schedule 2 controlled substances
+  - Concourse CI resources and pipeline templating to support development and operational needs
+  - Extend internal microservices support library to improve distributed tracing, introduce micrometer metrics reporting. Spring extensions to handle cross-cutting concerns for apps and services - standard logging, security, authentication, caching, async functionality and config.
+  - Lead architecture and development for customer loyalty program, interfacing with marketing, legal, compliance, ERP, and data teams along 3rd party vendor.  Negotiate with all parties to find a solution that satisfies unique regulatory constraints
+  - Migration from legacy self-hosted Endeca search to SaaS solution. Refactoring of search internal microservice in backwards compatible fashion to replace implementation while maintaining existing public API 
+  - Troubleshoot and diagnose performance issues.  Solve resource pooling bugs, cache timeliness and stability, N+1 communication patterns, production support
+
+---
+
 ### [![MyLaps](images/logo-mylaps.png)](https://www.mylaps.com)
 
 **Timing & Scoring**
