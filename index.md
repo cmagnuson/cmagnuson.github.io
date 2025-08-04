@@ -3,9 +3,19 @@
 ---
 
 ### [![Solution Design Group](images/logo-sdg.png)](https://www.solutiondesign.com)
-**SupplyManager Client Project**
+**HealthPartners Virtuwell Client Project**
+- Description: Telehealth platform for fast and convenient treatment of acute conditions
+- Technologies: Java 21, Spring Boot 3, Spock, Angular, GitOps
+- Infrastructure: Argo, OpenShift, Helm, GitHub, MS SQL Server, Kafka
+- Background: [HealthPartners](https://www.healthpartners.com), [Virtuwell](https://www.virtuwell.com)
+- Contributions:
+  - Migration of data and code from 3rd party data center VM based deployments to in house OpenShift/Kubernetes deployments via Helm, Argo and GitHub Actions.  Data migration from shared NFS mount to S3 compatible storage layer
+  - Enhanced blue/green deployment with application version cookie, allowing for graceful upgrades, draining of existing user sessions and testing newly deployed code prior to making it live
+  - Hybrid preventative care initiative - greatly enhancing our codebase to allow for preventative care workflows, integration with Epic and custom internal APIs, Lab ordering and resulting via HL7 protocol over MLLP. Close communication with HealthPartners integration points for seamlessly integrating data with existing workflows
+
+**McKesson SupplyManager Client Project**
 - Description: B2B ecommerce system for medical purchasing
-- Technologies: Java 17, Spring Boot 2.x, Microservices
+- Technologies: Java 17, Spring Boot 2.x, React, Microservices
 - Infrastructure: AKS, Oracle, MS SQL, Redis, Kafka, Elastic, JDE, Concourse CI, Distributed Tracing
 - Background: [SupplyManager](https://mms.mckesson.com), [McKesson](https://www.mckesson.com)
 - Contributions: 
