@@ -12,7 +12,8 @@
   - Migration of data and code from 3rd party data center VM based deployments to in house OpenShift/Kubernetes deployments via Helm, Argo and GitHub Actions.  Data migration from shared NFS mount to S3 compatible storage layer
   - Enhanced blue/green deployment with application version cookie, allowing for graceful upgrades, draining of existing user sessions and testing newly deployed code prior to making it live
   - Hybrid preventative care initiative - greatly enhancing our codebase to allow for preventative care workflows, integration with Epic and custom internal APIs, Lab ordering and resulting via HL7 protocol over MLLP. Close communication with HealthPartners integration points for seamlessly integrating data with existing workflows
-
+  - Observability enhancements to logging, metrics, trace propagation, remote call instrumentation, health checks, kubernetes probes, monitoring dashboards, custom alerting
+  
 **McKesson SupplyManager Client Project**
 - Description: B2B ecommerce system for medical purchasing
 - Technologies: Java 17, Spring Boot 2.x, React, Microservices
