@@ -5,7 +5,7 @@
 ### [![Solution Design Group](images/logo-sdg.png)](https://www.solutiondesign.com)
 **HealthPartners Virtuwell Client Project**
 - Description: Telehealth platform for fast and convenient treatment of acute conditions
-- Technologies: Java 21, Spring Boot 3, Spock, Angular, GitOps
+- Technologies: Java 21, Spring Boot 3, Spock, Angular, TypeScript, GitOps
 - Infrastructure: Argo, OpenShift, Helm, GitHub, MS SQL Server, Kafka
 - Background: [HealthPartners](https://www.healthpartners.com), [Virtuwell](https://www.virtuwell.com)
 - Contributions:
